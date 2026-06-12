@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Shane Ting</title>
+  <meta name="description" content="Browse Shane Ting's speaking engagements, keynotes, and workshops across the globe." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Shane Ting</a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="nav__cta">Book Me</a></li>
+      </ul>
+      <button class="nav__burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <nav class="nav__mobile">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="nav__cta">Book Me</a>
+  </nav>
+
+  <main class="page-content">
+
+    <!-- ── Hero ── -->
+    <section class="portfolio-hero container">
+      <h1>Speaking Portfolio</h1>
+      <p>A selection of keynotes, workshops, and panels from around the world.</p>
+    </section>
+
+    <!-- ── Stats strip ── -->
+    <section class="stats section--light">
+      <div class="container">
+        <div class="stats__grid">
+          <div>
+            <div class="stat__number">200+</div>
+            <div class="stat__label">Talks</div>
+          </div>
+          <div>
+            <div class="stat__number">40+</div>
+            <div class="stat__label">Countries</div>
+          </div>
+          <div>
+            <div class="stat__number">50+</div>
+            <div class="stat__label">Fortune 500 clients</div>
+          </div>
+          <div>
+            <div class="stat__number">12</div>
+            <div class="stat__label">Years speaking</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Gallery ── -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Filters -->
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="keynote">Keynote</button>
+          <button class="filter-btn" data-filter="workshop">Workshop</button>
+          <button class="filter-btn" data-filter="panel">Panel</button>
+          <button class="filter-btn" data-filter="virtual">Virtual</button>
+        </div>
+
+        <!-- Gallery grid
+             HOW TO UPDATE: add a new .gallery-item div below with:
+             - data-category: keynote | workshop | panel | virtual
+             - An <img> tag pointing to your photo (or leave the placeholder div)
+             - Update the overlay text
+        -->
+        <div class="gallery">
+
+          <div class="gallery-item" data-category="keynote">
+            <div class="gallery-placeholder" style="background:var(--gray-200);">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Keynote &middot; 2024</div>
+              <h3>Leadership Under Pressure</h3>
+              <p>Google I/O Extended, Sydney</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="workshop">
+            <div class="gallery-placeholder" style="background:var(--gray-100);">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Workshop &middot; 2024</div>
+              <h3>Storytelling for Impact</h3>
+              <p>Atlassian Team Summit, San Francisco</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="keynote">
+            <div class="gallery-placeholder" style="background:#e0e0e0;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Keynote &middot; 2023</div>
+              <h3>The Future of Work</h3>
+              <p>TEDxSydney, Sydney Opera House</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="panel">
+            <div class="gallery-placeholder" style="background:#d8d8d8;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Panel &middot; 2023</div>
+              <h3>AI & Human Connection</h3>
+              <p>Web Summit, Lisbon</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="virtual">
+            <div class="gallery-placeholder" style="background:#ebebeb;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Virtual &middot; 2023</div>
+              <h3>Authentic Personal Brand</h3>
+              <p>Microsoft Build (Online), 8,000 attendees</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="keynote">
+            <div class="gallery-placeholder" style="background:#d0d0d0;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Keynote &middot; 2022</div>
+              <h3>Leading Through Uncertainty</h3>
+              <p>Salesforce Dreamforce, Las Vegas</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="workshop">
+            <div class="gallery-placeholder" style="background:#c8c8c8;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Workshop &middot; 2022</div>
+              <h3>Executive Communication</h3>
+              <p>Amazon Leadership Program, Seattle</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="panel">
+            <div class="gallery-placeholder" style="background:#c0c0c0;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Panel &middot; 2022</div>
+              <h3>Culture &amp; Innovation</h3>
+              <p>SXSW, Austin TX</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="virtual">
+            <div class="gallery-placeholder" style="background:#b8b8b8;">
+              <span>Add photo here</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <div class="gallery-item__tag">Virtual &middot; 2021</div>
+              <h3>Resilience in Remote Teams</h3>
+              <p>AWS re:Invent (Online)</p>
+            </div>
+          </div>
+
+        </div><!-- /.gallery -->
+      </div>
+    </section>
+
+    <!-- ── Testimonials ── -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="testimonial">
+          <p class="testimonial__quote">
+            The best speaker we have ever had at our summit — and we've had thousands. Shane reads the room, adapts on the fly, and delivers every single time.
+          </p>
+          <div class="testimonial__author">
+            <strong>Jordan Park</strong>
+            Head of Events, Web Summit
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA ── -->
+    <section class="section section--light">
+      <div class="container" style="text-align:center;">
+        <h2>Add your event to this list</h2>
+        <p style="color:var(--gray-600); margin: 1rem auto 2rem;">
+          Available for keynotes, workshops, panels, and virtual events worldwide.
+        </p>
+        <a href="contact.html" class="btn btn--primary">Check availability</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">Shane Ting</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">&copy; 2026 Shane Ting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
