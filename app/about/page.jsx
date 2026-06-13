@@ -1,54 +1,72 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About | Shane Ting',
-  description: 'Learn about Shane Ting — motivational keynote speaker.',
+  title: 'About Shane Ting | Keynote Speaker',
+  description: 'The story behind Shane Ting — from rock bottom to center stage.',
 };
 
 export default function About() {
   return (
     <main>
-      <section>
+      <section className="page-hero">
         <div className="container">
-          <div className="two-col">
-            <div className="photo-placeholder">Your photo here</div>
-            <div>
-              <p className="eyebrow">Meet Shane</p>
-              <h2 className="section-title">
-                From rock bottom to <em>center stage</em>
-              </h2>
-              <p style={{ marginBottom: 18 }}>
-                {/* Replace with your real story */}
-                Shane Ting knows what it means to start over. After [your
-                defining setback — job loss, failure, illness, reinvention],
-                Shane discovered that the hardest chapters of our lives often
-                hold our most powerful lessons.
+          <p className="eyebrow">About</p>
+          <h1>From rock bottom<br />to <em>center stage.</em></h1>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="about-grid">
+            <div className="about-photo">
+              {/*
+                Add your photo: place about.jpg in /public and swap this for:
+                <img src="/about.jpg" alt="Shane Ting on stage" />
+              */}
+              <div className="about-photo-placeholder">Your photo here</div>
+            </div>
+            <div className="about-text">
+              <p className="eyebrow">My story</p>
+              <h2>Hi, I'm Shane.</h2>
+              <p>
+                {/* Replace everything below with your real story */}
+                I know what it means to start over. After [your defining
+                setback], I discovered that the most powerful thing I had
+                wasn't a credential — it was my story.
               </p>
-              <p style={{ marginBottom: 18 }}>
-                Today, Shane shares those lessons with audiences at
-                conferences, companies, and schools — blending personal
-                storytelling with practical takeaways people can use the moment
-                they leave the room.
+              <p>
+                I spent [time period] [what you did — rebuilding, reflecting,
+                learning], and along the way I realised that the same
+                principles that got me through the hardest chapter of my life
+                were the ones that audiences most needed to hear.
               </p>
-              <p style={{ marginBottom: 32 }}>
-                When he&apos;s not on stage, you&apos;ll find Shane [your
-                hobbies — hiking, cooking, mentoring, etc.].
+              <p>
+                Today I share those lessons on stages around the world —
+                helping leaders, teams, and individuals see that setbacks
+                aren't the end of the story. They're the plot twist that makes
+                it worth telling.
               </p>
-              <Link href="/contact" className="btn-outline btn">
-                Work With Shane
-              </Link>
+              <p>
+                When I'm not on stage, you'll find me [your hobbies].
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section-dark">
-        <div className="container center">
-          <p className="eyebrow">The Mission</p>
-          <p className="statement">
-            To help every audience member walk out believing their story
-            isn&apos;t over — it&apos;s just getting started.
-          </p>
+      <div className="quote-strip">
+        <blockquote>
+          "Your story isn't something to hide — it's the thing that makes
+          you impossible to forget."
+        </blockquote>
+        <cite>— Shane Ting</cite>
+      </div>
+
+      <section className="section section-light">
+        <div className="container" style={{textAlign:'center'}}>
+          <p className="eyebrow">Work with Shane</p>
+          <h2 className="section-title">Let's make your event unforgettable.</h2>
+          <Link href="/contact" className="btn btn-dark">Get in Touch →</Link>
         </div>
       </section>
     </main>
