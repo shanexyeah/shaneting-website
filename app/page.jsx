@@ -67,6 +67,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ===== KNOX GRAMMAR FULL TALK ===== */}
+      <section className="video-section talk-section" id="knox-talk">
+        <div className="container">
+          <p className="eyebrow" style={{textAlign:'center'}}>Live Talk</p>
+          <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'12px'}}>
+            Knox Grammar School
+          </h2>
+          <p className="talk-meta">360 Year 8 students &mdash; full keynote</p>
+          <div className="video-wrap">
+            <iframe
+              src="https://www.youtube.com/embed/akQZ8cCFqV0"
+              title="Shane Ting — Knox Grammar School Keynote"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ===== QUOTE STRIP ===== */}
       <div className="quote-strip">
         <blockquote>
@@ -119,11 +138,7 @@ export default function Home() {
         <div className="container">
           <div className="about-grid">
             <div className="about-photo">
-              {/*
-                Add an about photo: place about.jpg in /public and uncomment below.
-                <img src="/about.jpg" alt="Shane Ting" />
-              */}
-              <div className="about-photo-placeholder">Your photo here</div>
+              <img src="/about.jpg" alt="Shane Ting speaking" />
             </div>
             <div className="about-text">
               <p className="eyebrow">Meet Shane</p>
