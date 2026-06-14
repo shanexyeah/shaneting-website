@@ -53,6 +53,15 @@ img { max-width: 100%; display: block; }
 .btn-accent:hover { background: #b8945a; }
 
 /* ===== HERO ===== */
+@keyframes heroImgReveal {
+  from { opacity: 0; }
+  to   { opacity: 0.45; }
+}
+@keyframes heroTextUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .hero {
   min-height: 100vh;
   background: var(--black);
@@ -64,7 +73,8 @@ img { max-width: 100%; display: block; }
   position: absolute; inset: 0;
   background-image: url('/hero.jpg');
   background-size: cover; background-position: center top;
-  opacity: 0.45;
+  opacity: 0;
+  animation: heroImgReveal 1s ease forwards;
 }
 .hero-content {
   position: relative; z-index: 2;
@@ -76,14 +86,22 @@ img { max-width: 100%; display: block; }
   font-weight: 800; line-height: 1.0;
   color: var(--white); letter-spacing: -0.03em;
   max-width: 780px; margin-bottom: 28px;
+  opacity: 0;
+  animation: heroTextUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;
 }
 .hero h1 em { font-style: normal; color: var(--accent); }
 .hero p {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   color: rgba(255,255,255,0.75);
   max-width: 540px; margin-bottom: 44px; line-height: 1.7;
+  opacity: 0;
+  animation: heroTextUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.95s forwards;
 }
-.hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-btns {
+  display: flex; gap: 16px; flex-wrap: wrap;
+  opacity: 0;
+  animation: heroTextUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 1.15s forwards;
+}
 
 /* ===== MARQUEE ===== */
 .marquee-section { background: var(--black); padding: 28px 0; overflow: hidden; border-top: 1px solid rgba(255,255,255,0.08); }
