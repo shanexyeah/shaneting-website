@@ -25,7 +25,7 @@ export default function Contact() {
               */}
               <form
                 className="contact-form"
-                action="https://formspree.io/f/YOUR_FORM_ID"
+                action="https://formspree.io/f/xeewvwvg"
                 method="POST"
               >
                 <div className="form-field">
