@@ -59,7 +59,9 @@ export default function About() {
               </p>
               <p>
                 That became a habit, then a craft. I arranged my own sheet music,
-                performed live, and slowly learned to put myself out there.
+                built a following of over 180,000 people across social media, and
+                started performing at weddings and live events &mdash; slowly learning
+                to put myself out there, one stage at a time.
               </p>
             </div>
           </div>
