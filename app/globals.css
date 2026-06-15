@@ -228,13 +228,14 @@ img { max-width: 100%; display: block; }
 .page-hero h1 { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 800; color: var(--white); letter-spacing: -0.03em; max-width: 700px; }
 .page-hero h1 em { font-style: normal; color: var(--accent); }
 
-/* ===== ABOUT PHOTO STRIP ===== */
-.about-photos-section { padding-top: 0; }
-.about-photo-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-@media (max-width: 768px) { .about-photo-strip { grid-template-columns: 1fr; } }
-.about-strip-item { margin: 0; }
-.about-strip-item img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
-.about-strip-item figcaption { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--mid); margin-top: 12px; }
+/* ===== ABOUT STORY ROWS ===== */
+.story-row { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; margin-bottom: 120px; }
+.story-row:last-child { margin-bottom: 0; }
+@media (max-width: 768px) { .story-row { grid-template-columns: 1fr; gap: 40px; margin-bottom: 72px; } }
+.story-photo img { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
+.story-text h2 { font-size: clamp(1.8rem, 3.5vw, 2.8rem); font-weight: 800; margin-bottom: 24px; letter-spacing: -0.02em; line-height: 1.1; }
+.story-text p { font-size: 1.05rem; color: #444; line-height: 1.8; margin-bottom: 18px; }
+.story-text p:last-child { margin-bottom: 0; }
 
 /* ===== CONTACT PAGE ===== */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }

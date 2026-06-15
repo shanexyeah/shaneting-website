@@ -17,13 +17,12 @@ export default function About() {
 
       <section className="section">
         <div className="container">
-          <div className="about-grid">
-            <div className="about-photo">
-              <img src="/about.jpg" alt="Shane Ting" />
-            </div>
-            <div className="about-text">
+
+          {/* Row 1: text left, swim photo right */}
+          <div className="story-row">
+            <div className="story-text">
               <p className="eyebrow">My story</p>
-              <h2>Hi, I&apos;m Shane.</h2>
+              <h2>The dream.</h2>
               <p>
                 At fourteen, I left home and moved interstate to boarding school
                 to chase one goal: becoming an Olympic swimmer. At sixteen, I
@@ -36,6 +35,20 @@ export default function About() {
                 with it. I came home without an identity. I didn&apos;t know who I
                 was without swimming, and I didn&apos;t know how to talk about it.
               </p>
+            </div>
+            <div className="story-photo">
+              <img src="/about-swim.jpg" alt="Shane Ting swimming" />
+            </div>
+          </div>
+
+          {/* Row 2: piano photo left, text right */}
+          <div className="story-row">
+            <div className="story-photo">
+              <img src="/about-piano.jpg" alt="Shane Ting playing piano" />
+            </div>
+            <div className="story-text">
+              <p className="eyebrow">The turning point</p>
+              <h2>A cheap keyboard.</h2>
               <p>
                 I&apos;d grown up playing piano too &mdash; I&apos;d even reached the
                 highest level in Australia before burning out and swearing I&apos;d
@@ -44,6 +57,14 @@ export default function About() {
                 I actually wanted to play. I started posting it online. Music
                 became the first time I expressed myself without needing to speak.
               </p>
+            </div>
+          </div>
+
+          {/* Row 3: text left, stage photo right */}
+          <div className="story-row">
+            <div className="story-text">
+              <p className="eyebrow">The payoff</p>
+              <h2>The TED stage.</h2>
               <p>
                 That became a habit, then a craft. I arranged my own sheet music,
                 performed live, and slowly learned to put myself out there. The
@@ -60,26 +81,11 @@ export default function About() {
                 just a muscle, trained one small scary thing at a time.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-light about-photos-section">
-        <div className="container">
-          <div className="about-photo-strip">
-            <figure className="about-strip-item">
-              <img src="/about-swim.jpg" alt="Shane Ting swimming" />
-              <figcaption>The dream — chasing the Olympics</figcaption>
-            </figure>
-            <figure className="about-strip-item">
-              <img src="/about-piano.jpg" alt="Shane Ting playing piano" />
-              <figcaption>The turning point — finding a new voice</figcaption>
-            </figure>
-            <figure className="about-strip-item">
+            <div className="story-photo">
               <img src="/about-stage.jpg" alt="Shane Ting speaking on stage" />
-              <figcaption>The payoff — TEDx and beyond</figcaption>
-            </figure>
+            </div>
           </div>
+
         </div>
       </section>
 
@@ -93,7 +99,7 @@ export default function About() {
       <section className="section section-light">
         <div className="container" style={{textAlign:'center'}}>
           <p className="eyebrow">Work with Shane</p>
-          <h2 className="section-title">Let's make your event unforgettable.</h2>
+          <h2 className="section-title">Let&apos;s make your event unforgettable.</h2>
           <Link href="/contact" className="btn btn-dark">Get in Touch →</Link>
         </div>
       </section>
