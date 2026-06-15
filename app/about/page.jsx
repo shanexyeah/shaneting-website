@@ -57,6 +57,10 @@ export default function About() {
                 I actually wanted to play. I started posting it online. Music
                 became the first time I expressed myself without needing to speak.
               </p>
+              <p>
+                That became a habit, then a craft. I arranged my own sheet music,
+                performed live, and slowly learned to put myself out there.
+              </p>
             </div>
           </div>
 
@@ -66,9 +70,7 @@ export default function About() {
               <p className="eyebrow">The payoff</p>
               <h2>The TED stage.</h2>
               <p>
-                That became a habit, then a craft. I arranged my own sheet music,
-                performed live, and slowly learned to put myself out there. The
-                breakthrough came when I gave my first TEDx talk, on starting
+                The breakthrough came when I gave my first TEDx talk, on starting
                 before you feel ready. Standing on that stage, I was really
                 speaking to one person: the shy kid who&apos;d spent years hiding
                 behind swimming and piano.
