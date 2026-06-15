@@ -237,6 +237,15 @@ img { max-width: 100%; display: block; }
 .story-text p { font-size: 1.05rem; color: #444; line-height: 1.8; margin-bottom: 18px; }
 .story-text p:last-child { margin-bottom: 0; }
 
+/* ===== SOCIALS ===== */
+.socials-section { background: var(--black); padding: 80px 40px; }
+.socials-links { display: flex; justify-content: center; gap: 60px; margin-top: 24px; flex-wrap: wrap; }
+.socials-links a { font-size: clamp(1.4rem, 3vw, 2.2rem); font-weight: 700; color: var(--white); letter-spacing: -0.01em; transition: color 0.2s; }
+.socials-links a:hover { color: var(--accent); }
+.footer-socials { display: flex; gap: 20px; flex-wrap: wrap; }
+.footer-socials a { font-size: 0.8rem; color: rgba(255,255,255,0.5); transition: color 0.2s; }
+.footer-socials a:hover { color: var(--white); }
+
 /* ===== CONTACT PAGE ===== */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 @media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } }

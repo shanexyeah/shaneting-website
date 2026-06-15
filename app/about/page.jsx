@@ -93,6 +93,17 @@ export default function About() {
         </div>
       </section>
 
+      <section className="socials-section">
+        <div className="container">
+          <p className="eyebrow" style={{textAlign:'center', color:'rgba(255,255,255,0.4)'}}>Follow along</p>
+          <div className="socials-links">
+            <a href="https://instagram.com/shanexyeah" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://tiktok.com/@shanexyeah" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://youtube.com/@ShaneTing24" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+        </div>
+      </section>
+
       <div className="quote-strip">
         <blockquote>
           &ldquo;Your story isn&rsquo;t something to hide. It&rsquo;s your superpower.&rdquo;

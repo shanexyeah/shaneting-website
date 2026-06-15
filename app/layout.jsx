@@ -40,6 +40,11 @@ export default function RootLayout({ children }) {
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
             </div>
+            <div className="footer-socials">
+              <a href="https://instagram.com/shanexyeah" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://tiktok.com/@shanexyeah" target="_blank" rel="noopener noreferrer">TikTok</a>
+              <a href="https://youtube.com/@ShaneTing24" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </div>
           </div>
           <div className="footer-bottom">
             <p>© {new Date().getFullYear()} Shane Ting</p>
