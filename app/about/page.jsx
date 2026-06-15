@@ -19,35 +19,45 @@ export default function About() {
         <div className="container">
           <div className="about-grid">
             <div className="about-photo">
-              {/*
-                Add your photo: place about.jpg in /public and swap this for:
-                <img src="/about.jpg" alt="Shane Ting on stage" />
-              */}
-              <div className="about-photo-placeholder">Your photo here</div>
+              <img src="/about.jpg" alt="Shane Ting" />
             </div>
             <div className="about-text">
               <p className="eyebrow">My story</p>
-              <h2>Hi, I'm Shane.</h2>
+              <h2>Hi, I&apos;m Shane.</h2>
               <p>
-                {/* Replace everything below with your real story */}
-                I know what it means to start over. After [your defining
-                setback], I discovered that the most powerful thing I had
-                wasn't a credential — it was my story.
+                At fourteen, I left home and moved interstate to boarding school
+                to chase one goal: becoming an Olympic swimmer. At sixteen, I
+                fractured my back. I was shattered &mdash; so I did the only
+                thing I knew how to do. I pushed harder.
               </p>
               <p>
-                I spent [time period] [what you did — rebuilding, reflecting,
-                learning], and along the way I realised that the same
-                principles that got me through the hardest chapter of my life
-                were the ones that audiences most needed to hear.
+                It didn&apos;t work. I never got back to the level I&apos;d been at,
+                and slowly the dream faded &mdash; and my sense of who I was went
+                with it. I came home without an identity. I didn&apos;t know who I
+                was without swimming, and I didn&apos;t know how to talk about it.
               </p>
               <p>
-                Today I share those lessons on stages around the world —
-                helping leaders, teams, and individuals see that setbacks
-                aren't the end of the story. They're the plot twist that makes
-                it worth telling.
+                I&apos;d grown up playing piano too &mdash; I&apos;d even reached the
+                highest level in Australia before burning out and swearing I&apos;d
+                never touch one again. But at my lowest point, I bought a cheap
+                keyboard and, for the first time in two years, played the music
+                I actually wanted to play. I started posting it online. Music
+                became the first time I expressed myself without needing to speak.
               </p>
               <p>
-                When I'm not on stage, you'll find me [your hobbies].
+                That became a habit, then a craft. I arranged my own sheet music,
+                performed live, and slowly learned to put myself out there. The
+                breakthrough came when I gave my first TEDx talk, on starting
+                before you feel ready. Standing on that stage, I was really
+                speaking to one person: the shy kid who&apos;d spent years hiding
+                behind swimming and piano.
+              </p>
+              <p>
+                Today I share that story with students and audiences facing their
+                own version of rock bottom &mdash; because the hardest chapter of my
+                life taught me something I wish I&apos;d known sooner. Your story
+                isn&apos;t something to hide. It&apos;s your superpower, and courage is
+                just a muscle, trained one small scary thing at a time.
               </p>
             </div>
           </div>
@@ -56,8 +66,7 @@ export default function About() {
 
       <div className="quote-strip">
         <blockquote>
-          "Your story isn't something to hide — it's the thing that makes
-          you impossible to forget."
+          &ldquo;Your story isn&rsquo;t something to hide. It&rsquo;s your superpower.&rdquo;
         </blockquote>
         <cite>— Shane Ting</cite>
       </div>
