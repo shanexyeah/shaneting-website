@@ -42,27 +42,21 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ===== VIDEO REEL ===== */}
+      {/* ===== TEDX TALK ===== */}
       <section className="video-section" id="reel">
         <div className="container">
-          <p className="eyebrow" style={{textAlign:'center'}}>Watch</p>
-          <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'48px'}}>
-            Shane in action
+          <p className="eyebrow" style={{textAlign:'center'}}>TEDx Talk</p>
+          <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'12px'}}>
+            Shane on the TED stage
           </h2>
+          <p className="talk-meta">TEDx — full talk</p>
           <div className="video-wrap">
-            {/*
-              When your reel is ready, replace the placeholder below with:
-              <iframe
-                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                title="Shane Ting Speaker Reel"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            */}
-            <div className="video-placeholder">
-              <div className="play-btn">▶</div>
-              <p>Highlight reel coming soon</p>
-            </div>
+            <iframe
+              src="https://www.youtube.com/embed/WhESr1RYXNw"
+              title="Shane Ting — TEDx Talk"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>
