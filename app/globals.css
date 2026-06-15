@@ -228,6 +228,14 @@ img { max-width: 100%; display: block; }
 .page-hero h1 { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 800; color: var(--white); letter-spacing: -0.03em; max-width: 700px; }
 .page-hero h1 em { font-style: normal; color: var(--accent); }
 
+/* ===== ABOUT PHOTO STRIP ===== */
+.about-photos-section { padding-top: 0; }
+.about-photo-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 768px) { .about-photo-strip { grid-template-columns: 1fr; } }
+.about-strip-item { margin: 0; }
+.about-strip-item img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
+.about-strip-item figcaption { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--mid); margin-top: 12px; }
+
 /* ===== CONTACT PAGE ===== */
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 @media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } }

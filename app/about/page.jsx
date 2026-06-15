@@ -64,6 +64,25 @@ export default function About() {
         </div>
       </section>
 
+      <section className="section section-light about-photos-section">
+        <div className="container">
+          <div className="about-photo-strip">
+            <figure className="about-strip-item">
+              <img src="/about-swim.jpg" alt="Shane Ting swimming" />
+              <figcaption>The dream — chasing the Olympics</figcaption>
+            </figure>
+            <figure className="about-strip-item">
+              <img src="/about-piano.jpg" alt="Shane Ting playing piano" />
+              <figcaption>The turning point — finding a new voice</figcaption>
+            </figure>
+            <figure className="about-strip-item">
+              <img src="/about-stage.jpg" alt="Shane Ting speaking on stage" />
+              <figcaption>The payoff — TEDx and beyond</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <div className="quote-strip">
         <blockquote>
           &ldquo;Your story isn&rsquo;t something to hide. It&rsquo;s your superpower.&rdquo;
