@@ -83,6 +83,10 @@ export default function Home() {
               allowFullScreen
             />
           </div>
+          <div className="talk-reaction">
+            <p className="talk-reaction-quote">&ldquo;They were listening, they were paying attention &mdash; every one of your advice pieces, they worked.&rdquo;</p>
+            <p className="talk-reaction-attr">Margie Raymond &mdash; Head of Junior Academy, Knox Grammar School</p>
+          </div>
         </div>
       </section>
 
@@ -170,19 +174,15 @@ export default function Home() {
           <div className="testimonials-grid">
             <div className="testimonial">
               <p>
-                "Shane had the entire room leaning in. Weeks later, our team
-                is still quoting his talk."
+                &ldquo;His presentation was authentic, thoughtful, and thoroughly
+                engaging. What resonated most strongly with our boys was his
+                reflection on the value of courage &mdash; not simply as bravery in
+                big moments, but as the daily choice to stand for what is right
+                and to persevere through challenge. We look forward to welcoming
+                Shane back to share his further insights in the coming years.&rdquo;
               </p>
-              <div className="testimonial-name">[Name]</div>
-              <div className="testimonial-role">[Title, Company]</div>
-            </div>
-            <div className="testimonial">
-              <p>
-                "One of the most authentic speakers we have hosted. Honest,
-                funny, and deeply moving."
-              </p>
-              <div className="testimonial-name">[Name]</div>
-              <div className="testimonial-role">[Title, Event]</div>
+              <div className="testimonial-name">Margie Raymond</div>
+              <div className="testimonial-role">Head of Junior Academy, Knox Grammar School</div>
             </div>
             <div className="testimonial">
               <p>
