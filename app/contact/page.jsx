@@ -67,10 +67,10 @@ export default function Contact() {
               <p>
                 Prefer email?{' '}
                 <a
-                  href="mailto:shaneting02@gmail.com"
+                  href="mailto:shanexyeah@gmail.com"
                   style={{fontWeight:600, textDecoration:'underline', textUnderlineOffset:'3px'}}
                 >
-                  shaneting02@gmail.com
+                  shanexyeah@gmail.com
                 </a>
               </p>
               <br />
