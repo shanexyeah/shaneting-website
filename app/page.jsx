@@ -93,8 +93,9 @@ export default function Home() {
       {/* ===== QUOTE STRIP ===== */}
       <div className="quote-strip">
         <blockquote>
-          "Resilience isn't something you're born with — it's something you
-          build, one honest story at a time."
+          &ldquo;Courage is a muscle. Train it by doing small scary things on
+          purpose &mdash; over and over &mdash; until your body learns that
+          scary doesn&rsquo;t mean dangerous.&rdquo;
         </blockquote>
         <cite>— Shane Ting</cite>
       </div>
