@@ -141,18 +141,23 @@ export default function Home() {
             </div>
             <div className="about-text">
               <p className="eyebrow">Meet Shane</p>
-              <h2>Hi, I'm Shane.</h2>
+              <h2>Hi, I&apos;m Shane.</h2>
               <p>
-                {/* Replace this with your real story */}
-                I know what it feels like to hit rock bottom. After [your
-                defining moment — job loss, failure, reinvention], I
-                discovered that the most powerful thing I had wasn't a
-                credential or a skill — it was my story.
+                At fourteen I left home to become an Olympic swimmer. At
+                sixteen, I fractured my back &mdash; and lost the only identity
+                I&apos;d ever had. I came home not knowing who I was or how to
+                talk about it.
               </p>
               <p>
-                Today I share that story with audiences around the world,
-                helping them see that their hardest chapters aren't the
-                end — they're the beginning.
+                What pulled me through wasn&apos;t a plan. It was a cheap keyboard,
+                a camera, and the courage to share something real. That grew
+                into 180,000 followers, live performances, and eventually a
+                TEDx stage.
+              </p>
+              <p>
+                Now I bring that story to students, teams, and leaders who are
+                facing their own version of rock bottom &mdash; and show them that
+                the hardest chapter is rarely the last one.
               </p>
               <br />
               <Link href="/about" className="btn btn-dark">Read My Story →</Link>
