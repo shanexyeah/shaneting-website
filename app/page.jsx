@@ -143,10 +143,10 @@ export default function Home() {
               <p className="eyebrow">Meet Shane</p>
               <h2>Hi, I&apos;m Shane.</h2>
               <p>
-                At fourteen I left home to become an Olympic swimmer. At
-                sixteen, I fractured my back &mdash; and lost the only identity
-                I&apos;d ever had. I came home not knowing who I was or how to
-                talk about it.
+                At fourteen I left home to chase my dreams of becoming an
+                Olympic swimmer. At sixteen, I fractured my back &mdash; and lost
+                the only identity I&apos;d ever had. I came home not knowing who I
+                was or how to talk about it.
               </p>
               <p>
                 What pulled me through wasn&apos;t a plan. It was a cheap keyboard,
