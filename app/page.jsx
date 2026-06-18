@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* ===== ABOUT MINI ===== */}
-      <section className="section section-light">
+      <section className="section section-dark">
         <div className="container">
           <div className="about-grid">
             <div className="about-photo">
@@ -151,7 +151,7 @@ export default function Home() {
                 the hardest chapter is rarely the last one.
               </p>
               <br />
-              <Link href="/about" className="btn btn-dark">Read My Story →</Link>
+              <Link href="/about" className="btn btn-primary">Read My Story →</Link>
             </div>
           </div>
         </div>
