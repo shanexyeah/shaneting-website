@@ -205,6 +205,25 @@ export default function Home() {
       </section>
 
 
+      {/* ===== WORKSHOP TESTIMONIAL REEL ===== */}
+      <section className="video-section talk-section" id="testimonials-reel">
+        <div className="container">
+          <p className="eyebrow" style={{textAlign:'center'}}>Participant Testimonials</p>
+          <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'12px'}}>
+            Straight from the room.
+          </h2>
+          <p className="talk-meta">Storytelling workshop &mdash; University society</p>
+          <div className="video-wrap">
+            <iframe
+              src="https://www.youtube.com/embed/daX7hz_8HWs"
+              title="Shane Ting — Storytelling Workshop Testimonials"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ===== FINAL CTA ===== */}
       <section className="cta-banner">
         <div className="container">
