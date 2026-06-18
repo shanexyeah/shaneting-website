@@ -30,17 +30,7 @@ export default function Home() {
       </section>
 
       {/* ===== TRUSTED BY ===== */}
-      <div className="marquee-section">
-        <p className="marquee-label">As seen at</p>
-        <div className="marquee-track">
-          <div className="marquee-inner" aria-hidden="true">
-            {LOGOS.map((l, i) => <span key={i} className="marquee-item">{l}</span>)}
-          </div>
-          <div className="marquee-inner" aria-hidden="true">
-            {LOGOS.map((l, i) => <span key={i} className="marquee-item">{l}</span>)}
-          </div>
-        </div>
-      </div>
+      {/* Marquee removed — add back once more events are confirmed */}
 
       {/* ===== TEDX TALK ===== */}
       <section className="video-section" id="reel">
