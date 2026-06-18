@@ -202,6 +202,15 @@ export default function Home() {
               <div className="testimonial-name">Farris</div>
               <div className="testimonial-role">Storytelling Workshop Participant</div>
             </div>
+            <div className="testimonial testimonial-wide">
+              <p>
+                &ldquo;Thank you for making a difference with the boys and thank you
+                for volunteering to continue. Your continued courage and role
+                modelling is quite impactful.&rdquo;
+              </p>
+              <div className="testimonial-name">Paul Gladigau</div>
+              <div className="testimonial-role">President, Old Knox Grammarians Association</div>
+            </div>
           </div>
         </div>
       </section>

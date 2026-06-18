@@ -184,6 +184,7 @@ img { max-width: 100%; display: block; }
 .testimonials-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; margin-top: 60px; }
 @media (max-width: 768px) { .testimonials-grid { grid-template-columns: 1fr; } }
 .testimonial { background: var(--light); padding: 40px 36px; }
+.testimonial-wide { grid-column: 1 / -1; }
 .testimonial p { font-size: 1rem; line-height: 1.7; margin-bottom: 24px; color: #333; }
 .testimonial-name { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
 .testimonial-role { font-size: 0.8rem; color: var(--mid); margin-top: 2px; }
