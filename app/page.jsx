@@ -204,34 +204,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== EMAIL CAPTURE ===== */}
-      <section className="capture">
-        <div className="capture-inner">
-          <p className="eyebrow">Free resource</p>
-          <h2>The 3 Principles of Resilient Leadership</h2>
-          <p>
-            Delivered free to your inbox — practical frameworks I share on
-            stages around the world.
-          </p>
-          <ul className="capture-checks">
-            <li>Reframe failure as fuel</li>
-            <li>Build presence under pressure</li>
-            <li>Turn your story into your greatest asset</li>
-          </ul>
-          {/*
-            For this to work, set up a free form at https://formspree.io
-            and replace YOUR_FORM_ID below.
-          */}
-          <form
-            className="capture-form"
-            action="https://formspree.io/f/YOUR_FORM_ID"
-            method="POST"
-          >
-            <input type="email" name="email" placeholder="Your email address" required />
-            <button type="submit">Get It Free →</button>
-          </form>
-        </div>
-      </section>
 
       {/* ===== FINAL CTA ===== */}
       <section className="cta-banner">
