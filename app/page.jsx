@@ -176,19 +176,31 @@ export default function Home() {
             </div>
             <div className="testimonial">
               <p>
-                "I came for a keynote and left with a new perspective on
-                everything. Shane's story stayed with me for weeks."
+                &ldquo;I wanted something structured to tell me how to tell stories
+                &mdash; and that&apos;s exactly what I got. I would recommend Shane to
+                anyone who wants storytelling or public speaking. You can use
+                it at basically every aspect of your life.&rdquo;
               </p>
-              <div className="testimonial-name">[Name]</div>
-              <div className="testimonial-role">[Title, Company]</div>
+              <div className="testimonial-name">Adam</div>
+              <div className="testimonial-role">Storytelling Workshop Participant</div>
             </div>
             <div className="testimonial">
               <p>
-                "If you get the chance to have Shane speak at your event,
-                don't hesitate. Your audience will thank you."
+                &ldquo;I learned that sometimes it&apos;s just a matter of pushing
+                yourself out of your comfort zone &mdash; being willing to look
+                stupid, and being willing to take up space.&rdquo;
               </p>
-              <div className="testimonial-name">[Name]</div>
-              <div className="testimonial-role">[Title, Event]</div>
+              <div className="testimonial-name">Nick</div>
+              <div className="testimonial-role">Storytelling Workshop Participant</div>
+            </div>
+            <div className="testimonial">
+              <p>
+                &ldquo;The most valuable thing I learned was the framework for how
+                to structure storytelling. When you want to present a story,
+                you need structure &mdash; and that&apos;s exactly what we got.&rdquo;
+              </p>
+              <div className="testimonial-name">Farris</div>
+              <div className="testimonial-role">Storytelling Workshop Participant</div>
             </div>
           </div>
         </div>
