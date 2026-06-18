@@ -215,7 +215,7 @@ export default function Home() {
           <p className="talk-meta">Storytelling workshop &mdash; University society</p>
           <div className="video-wrap">
             <iframe
-              src="https://www.youtube.com/embed/daX7hz_8HWs"
+              src="https://www.youtube.com/embed/z2j07G0d57M"
               title="Shane Ting — Storytelling Workshop Testimonials"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
