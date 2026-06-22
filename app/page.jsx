@@ -62,7 +62,7 @@ export default function Home() {
           <p className="talk-meta">360 Year 8 students &mdash; full keynote</p>
           <div className="video-wrap">
             <iframe
-              src="https://www.youtube.com/embed/akQZ8cCFqV0"
+              src="https://www.youtube.com/embed/yuuRUg8szmM"
               title="Shane Ting — Knox Grammar School Keynote"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
