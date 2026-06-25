@@ -68,10 +68,7 @@ export default function Home() {
               allowFullScreen
             />
           </div>
-          <div className="talk-reaction">
-            <p className="talk-reaction-quote">&ldquo;They were listening, they were paying attention &mdash; every one of your advice pieces, they worked.&rdquo;</p>
-            <p className="talk-reaction-attr">Margie Raymond &mdash; Head of Junior Academy, Knox Grammar School</p>
-          </div>
+
         </div>
       </section>
 
