@@ -20,7 +20,7 @@ export default function Home() {
           <h1>Your story<br />is your <em>superpower.</em></h1>
           <p>
             Shane Ting is a keynote speaker who helps audiences turn their
-            biggest setbacks into unstoppable momentum — through honest
+            biggest setbacks into unstoppable momentum, through honest
             storytelling that moves rooms and changes minds.
           </p>
           <div className="hero-btns">
@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       {/* ===== TRUSTED BY ===== */}
-      {/* Marquee removed — add back once more events are confirmed */}
+      {/* Marquee removed; add back once more events are confirmed */}
 
       {/* ===== TEDX TALK ===== */}
       <section className="video-section" id="reel">
@@ -40,11 +40,11 @@ export default function Home() {
           <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'12px'}}>
             Shane on the TED stage
           </h2>
-          <p className="talk-meta">TEDx — full talk</p>
+          <p className="talk-meta">TEDx: full talk</p>
           <div className="video-wrap">
             <iframe
               src="https://www.youtube.com/embed/WhESr1RYXNw"
-              title="Shane Ting — TEDx Talk"
+              title="Shane Ting | TEDx Talk"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
@@ -59,11 +59,11 @@ export default function Home() {
           <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'12px'}}>
             Knox Grammar School
           </h2>
-          <p className="talk-meta">360 Year 8 students &mdash; full keynote</p>
+          <p className="talk-meta">360 Year 8 students: full keynote</p>
           <div className="video-wrap">
             <iframe
               src="https://www.youtube.com/embed/yuuRUg8szmM"
-              title="Shane Ting — Knox Grammar School Keynote"
+              title="Shane Ting | Knox Grammar School Keynote"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
@@ -76,10 +76,10 @@ export default function Home() {
       <div className="quote-strip">
         <blockquote>
           &ldquo;Courage is a muscle. Train it by doing small scary things on
-          purpose &mdash; over and over &mdash; until your body learns that
+          purpose, over and over, until your body learns that
           scary doesn&rsquo;t mean dangerous.&rdquo;
         </blockquote>
-        <cite>— Shane Ting</cite>
+        <cite>Shane Ting</cite>
       </div>
 
       {/* ===== OFFERINGS ===== */}
@@ -102,7 +102,7 @@ export default function Home() {
               <div className="card-num">02</div>
               <h3>Corporate Workshops</h3>
               <p>
-                Half-day and full-day workshops that go deep — giving teams
+                Half-day and full-day workshops that go deep, giving teams
                 the mindset and tools to communicate through adversity.
               </p>
               <Link href="/contact">Enquire →</Link>
@@ -132,7 +132,7 @@ export default function Home() {
               <h2>Hi, I&apos;m Shane.</h2>
               <p>
                 At fourteen I left home to chase my dreams of becoming an
-                Olympic swimmer. At sixteen, I fractured my back &mdash; and lost
+                Olympic swimmer. At sixteen, I fractured my back, and lost
                 the only identity I&apos;d ever had. I came home not knowing who I
                 was or how to talk about it.
               </p>
@@ -144,7 +144,7 @@ export default function Home() {
               </p>
               <p>
                 Now I bring that story to students, teams, and leaders who are
-                facing their own version of rock bottom &mdash; and show them that
+                facing their own version of rock bottom, and show them that
                 the hardest chapter is rarely the last one.
               </p>
               <br />
@@ -165,11 +165,11 @@ export default function Home() {
           <h2 className="section-title" style={{textAlign:'center', color:'#fff', marginBottom:'12px'}}>
             Straight from the room.
           </h2>
-          <p className="talk-meta">Storytelling workshop &mdash; University society</p>
+          <p className="talk-meta">Storytelling workshop, University society</p>
           <div className="video-wrap">
             <iframe
               src="https://www.youtube.com/embed/z2j07G0d57M"
-              title="Shane Ting — Storytelling Workshop Testimonials"
+              title="Shane Ting | Storytelling Workshop Testimonials"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />

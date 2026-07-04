@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
             <p>
               &ldquo;His presentation was authentic, thoughtful, and thoroughly
               engaging. What resonated most strongly with our boys was his
-              reflection on the value of courage &mdash; not simply as bravery in
+              reflection on the value of courage, not simply as bravery in
               big moments, but as the daily choice to stand for what is right
               and to persevere through challenge. We look forward to welcoming
               Shane back to share his further insights in the coming years.&rdquo;
@@ -46,7 +46,7 @@ export default function TestimonialsSection() {
           <div className="testimonial">
             <p>
               &ldquo;I wanted something structured to tell me how to tell stories
-              &mdash; and that&apos;s exactly what I got. I would recommend Shane to
+              and that&apos;s exactly what I got. I would recommend Shane to
               anyone who wants storytelling or public speaking. You can use
               it at basically every aspect of your life.&rdquo;
             </p>
@@ -56,7 +56,7 @@ export default function TestimonialsSection() {
           <div className="testimonial">
             <p>
               &ldquo;I learned that sometimes it&apos;s just a matter of pushing
-              yourself out of your comfort zone &mdash; being willing to look
+              yourself out of your comfort zone, being willing to look
               stupid, and being willing to take up space.&rdquo;
             </p>
             <div className="testimonial-name">Nick</div>
@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
             <p>
               &ldquo;The most valuable thing I learned was the framework for how
               to structure storytelling. When you want to present a story,
-              you need structure &mdash; and that&apos;s exactly what we got.&rdquo;
+              you need structure, and that&apos;s exactly what we got.&rdquo;
             </p>
             <div className="testimonial-name">Farris</div>
             <div className="testimonial-role">Storytelling Workshop Participant</div>

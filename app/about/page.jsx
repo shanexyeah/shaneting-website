@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About Shane Ting | Keynote Speaker',
-  description: 'The story behind Shane Ting — from rock bottom to center stage.',
+  description: 'The story behind Shane Ting: from rock bottom to center stage.',
 };
 
 export default function About() {
@@ -26,12 +26,12 @@ export default function About() {
               <p>
                 At fourteen, I left home and moved interstate to boarding school
                 to chase one goal: becoming an Olympic swimmer. At sixteen, I
-                fractured my back. I was shattered &mdash; so I did the only
+                fractured my back. I was shattered, so I did the only
                 thing I knew how to do. I pushed harder.
               </p>
               <p>
                 It didn&apos;t work. I never got back to the level I&apos;d been at,
-                and slowly the dream faded &mdash; and my sense of who I was went
+                and slowly the dream faded, and my sense of who I was went
                 with it. I came home without an identity. I didn&apos;t know who I
                 was without swimming, and I didn&apos;t know how to talk about it.
               </p>
@@ -50,7 +50,7 @@ export default function About() {
               <p className="eyebrow">The turning point</p>
               <h2>A cheap keyboard.</h2>
               <p>
-                I&apos;d grown up playing piano too &mdash; I&apos;d even reached the
+                I&apos;d grown up playing piano too; I&apos;d even reached the
                 highest level in Australia before burning out and swearing I&apos;d
                 never touch one again. But at my lowest point, I bought a cheap
                 keyboard and, for the first time in two years, played the music
@@ -60,7 +60,7 @@ export default function About() {
               <p>
                 That became a habit, then a craft. I arranged my own sheet music,
                 built a following of over 180,000 people across social media, and
-                started performing at weddings and live events &mdash; slowly learning
+                started performing at weddings and live events, slowly learning
                 to put myself out there, one stage at a time.
               </p>
             </div>
@@ -79,7 +79,7 @@ export default function About() {
               </p>
               <p>
                 Today I share that story with students and audiences facing their
-                own version of rock bottom &mdash; because the hardest chapter of my
+                own version of rock bottom, because the hardest chapter of my
                 life taught me something I wish I&apos;d known sooner. Your story
                 isn&apos;t something to hide. It&apos;s your superpower, and courage is
                 just a muscle, trained one small scary thing at a time.
@@ -114,7 +114,7 @@ export default function About() {
         <blockquote>
           &ldquo;Your story isn&rsquo;t something to hide. It&rsquo;s your superpower.&rdquo;
         </blockquote>
-        <cite>— Shane Ting</cite>
+        <cite>Shane Ting</cite>
       </div>
 
       <section className="section section-light">
