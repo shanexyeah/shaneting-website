@@ -22,7 +22,7 @@ const TALKS = [
     id: 'NDJPY77ACyA',
     eyebrow: 'Live Talk',
     title: 'TARA Anglican School for Girls',
-    meta: 'Full keynote',
+    meta: '120 Year 9 students: full keynote',
   },
 ];
 
