@@ -14,7 +14,7 @@ function Nav() {
     <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
       <Link href="/" className="nav-logo">Shane Ting</Link>
       <div className="nav-links">
-        <Link href="/#reel" className="nav-hide">Highlight Reel</Link>
+        <Link href="/talks" className="nav-hide">Talks</Link>
         <Link href="/about" className="nav-hide">About</Link>
         <Link href="/contact" className="nav-cta">Book Shane</Link>
       </div>
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           <div className="footer-inner">
             <Link href="/" className="footer-logo">Shane Ting</Link>
             <div className="footer-links">
-              <Link href="/#reel">Highlight Reel</Link>
+              <Link href="/talks">Talks</Link>
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
             </div>
