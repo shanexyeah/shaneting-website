@@ -2,8 +2,7 @@ import Link from 'next/link';
 import TestimonialsSection from './components/TestimonialsSection';
 
 const LOGOS = [
-  { src: '/knox-logo.jpg', alt: 'Knox Grammar School' },
-  { src: '/tara-logo.png', alt: 'TARA Anglican School for Girls' },
+  'TEDx', 'MDRT', 'ByOutliers', 'ICMI', 'JotForm', 'STAGE', '[Your Event]', 'TEDx', 'MDRT', 'ByOutliers', 'ICMI', 'JotForm', 'STAGE', '[Your Event]',
 ];
 
 export default function Home() {
@@ -32,21 +31,7 @@ export default function Home() {
       </section>
 
       {/* ===== TRUSTED BY ===== */}
-      <div className="marquee-section">
-        <p className="marquee-label">As seen at</p>
-        <div className="marquee-track">
-          <div className="marquee-inner" aria-hidden="true">
-            {LOGOS.map((l, i) => (
-              <div key={i} className="marquee-logo"><img src={l.src} alt={l.alt} /></div>
-            ))}
-          </div>
-          <div className="marquee-inner" aria-hidden="true">
-            {LOGOS.map((l, i) => (
-              <div key={i} className="marquee-logo"><img src={l.src} alt={l.alt} /></div>
-            ))}
-          </div>
-        </div>
-      </div>
+      {/* Marquee removed; add back once more events are confirmed */}
 
       {/* ===== TEDX TALK ===== */}
       <section className="video-section" id="reel">
@@ -75,9 +60,6 @@ export default function Home() {
             Knox Grammar School
           </h2>
           <p className="talk-meta">360 Year 8 students: full keynote</p>
-          <div className="talk-logo">
-            <img src="/knox-logo.jpg" alt="Knox Grammar School logo" />
-          </div>
           <div className="video-wrap">
             <iframe
               src="https://www.youtube.com/embed/yuuRUg8szmM"
