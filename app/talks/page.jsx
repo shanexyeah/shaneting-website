@@ -17,12 +17,14 @@ const TALKS = [
     eyebrow: 'Live Talk',
     title: 'Knox Grammar School',
     meta: '360 Year 8 students: full keynote',
+    logo: '/knox-logo.jpg',
   },
   {
     id: 'NDJPY77ACyA',
     eyebrow: 'Live Talk',
     title: 'TARA Anglican School for Girls',
     meta: '120 Year 9 students: full keynote',
+    logo: '/tara-logo.png',
   },
 ];
 
@@ -48,6 +50,11 @@ export default function Talks() {
               {talk.title}
             </h2>
             <p className="talk-meta">{talk.meta}</p>
+            {talk.logo && (
+              <div className="talk-logo">
+                <img src={talk.logo} alt={`${talk.title} logo`} />
+              </div>
+            )}
             <div className="video-wrap">
               <iframe
                 src={`https://www.youtube.com/embed/${talk.id}`}
