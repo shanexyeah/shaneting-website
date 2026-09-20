@@ -43,26 +43,21 @@ export default function TestimonialsSection() {
             <div className="testimonial-name">Margie Raymond</div>
             <div className="testimonial-role">Head of Junior Academy, Knox Grammar School</div>
           </div>
-          <div className="testimonial testimonial-wide">
+          <div className="testimonial">
             <p>
               &ldquo;Shane Ting delivered an engaging, relatable and highly valuable
               presentation to our Year 9 students. He connected exceptionally well
               with the girls, using humour, personal stories and practical advice
               to communicate important messages in a way that felt genuine and
-              accessible.
-            </p>
-            <p style={{ marginTop: '1rem', fontSize: '0.95rem' }}>
-              Our students were attentive and responsive throughout the presentation,
-              and Shane created an environment where they felt comfortable reflecting
-              on their own experiences, choices and challenges. His presentation was
-              both thought provoking and age appropriate, leaving the students with
-              practical strategies and ideas they could take away and apply to their
-              own lives.
-            </p>
-            <p style={{ marginTop: '1rem', fontSize: '0.95rem' }}>
-              We were incredibly grateful to have Shane speak with our Year 9 cohort
-              and would happily recommend him to other schools looking for a presenter
-              who can genuinely connect with young people and leave a lasting
+              accessible. Our students were attentive and responsive throughout the
+              presentation, and Shane created an environment where they felt
+              comfortable reflecting on their own experiences, choices and
+              challenges. His presentation was both thought provoking and age
+              appropriate, leaving the students with practical strategies and ideas
+              they could take away and apply to their own lives. We were incredibly
+              grateful to have Shane speak with our Year 9 cohort and would happily
+              recommend him to other schools looking for a presenter who can
+              genuinely connect with young people and leave a lasting
               impression.&rdquo;
             </p>
             <div className="testimonial-name">TARA Anglican School</div>
