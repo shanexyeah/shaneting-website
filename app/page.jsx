@@ -127,7 +127,7 @@ export default function Home() {
         <div className="container">
           <div className="about-grid">
             <div className="about-photo" data-reveal>
-              <img src="/about2.jpg" alt="Shane Ting speaking" />
+              <img src="/about3.jpg" alt="Shane Ting speaking" />
             </div>
             <div className="about-text" data-reveal style={{'--reveal-delay': '80ms'}}>
               <p className="eyebrow">Meet Shane</p>

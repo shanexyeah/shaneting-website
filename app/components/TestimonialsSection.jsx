@@ -75,15 +75,6 @@ export default function TestimonialsSection() {
           </div>
           <div className="testimonial">
             <p>
-              &ldquo;I learned that sometimes it&apos;s just a matter of pushing
-              yourself out of your comfort zone, being willing to look
-              stupid, and being willing to take up space.&rdquo;
-            </p>
-            <div className="testimonial-name">Nick</div>
-            <div className="testimonial-role">Storytelling Workshop Participant</div>
-          </div>
-          <div className="testimonial">
-            <p>
               &ldquo;The most valuable thing I learned was the framework for how
               to structure storytelling. When you want to present a story,
               you need structure, and that&apos;s exactly what we got.&rdquo;
