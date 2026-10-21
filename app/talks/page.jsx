@@ -24,6 +24,12 @@ const TALKS = [
     title: 'TARA Anglican School for Girls',
     meta: '120 Year 9 students: full keynote',
   },
+  {
+    id: '-yhiVtXc1xE',
+    eyebrow: 'Live Talk',
+    title: 'Notion Market Sydney',
+    meta: 'How to Be Courageous: full talk',
+  },
 ];
 
 export default function Talks() {
