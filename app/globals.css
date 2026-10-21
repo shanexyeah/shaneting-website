@@ -9,6 +9,7 @@
   --border: rgba(255,255,255,0.12);
   --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: 'Instrument Serif', Georgia, serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 h1, h2, h3 { font-family: var(--font-display); }
@@ -25,14 +26,21 @@ img { max-width: 100%; display: block; }
   padding: 20px 40px;
   display: flex; align-items: center; justify-content: space-between;
   background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, transparent 100%);
-  transition: background 0.3s ease;
 }
-.nav.scrolled { background: var(--black); padding: 16px 40px; }
+/* Gradients can't interpolate to a solid color, so fade a solid layer in instead */
+.nav::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: var(--black);
+  opacity: 0;
+  transition: opacity 200ms var(--ease-out);
+}
+.nav.scrolled::before { opacity: 1; }
 .nav-logo { font-size: 1rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--white); }
 .nav-links { display: flex; gap: 32px; align-items: center; }
 .nav-links a { font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.85); transition: color 0.2s; }
 .nav-links a:hover { color: var(--white); }
-.nav-cta { background: var(--white); color: var(--black) !important; padding: 10px 22px; font-weight: 600 !important; transition: background 0.2s, color 0.2s !important; }
+.nav-cta { background: var(--white); color: var(--black) !important; padding: 10px 22px; font-weight: 600 !important; transition: background-color 0.2s, color 0.2s, transform 160ms ease-out !important; }
+.nav-cta:active { transform: scale(0.97); }
 .nav-cta:hover { background: var(--accent) !important; color: var(--white) !important; }
 @media (max-width: 768px) {
   .nav { padding: 16px 20px; }
@@ -44,8 +52,10 @@ img { max-width: 100%; display: block; }
 .btn {
   display: inline-block; padding: 15px 36px;
   font-size: 0.85rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
-  cursor: pointer; border: none; transition: all 0.2s ease;
+  cursor: pointer; border: none;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 160ms ease-out;
 }
+.btn:active { transform: scale(0.97); }
 .btn-primary { background: var(--white); color: var(--black); }
 .btn-primary:hover { background: var(--accent); color: var(--white); }
 .btn-outline { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.6); }
@@ -90,7 +100,7 @@ img { max-width: 100%; display: block; }
   color: var(--white); letter-spacing: -0.03em;
   max-width: 780px; margin-bottom: 28px;
   opacity: 0;
-  animation: heroTextUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;
+  animation: heroTextUp 0.9s var(--ease-out) 0.7s forwards;
 }
 .hero h1 em { font-style: normal; color: var(--accent); }
 .hero p {
@@ -98,12 +108,12 @@ img { max-width: 100%; display: block; }
   color: rgba(255,255,255,0.75);
   max-width: 540px; margin-bottom: 44px; line-height: 1.7;
   opacity: 0;
-  animation: heroTextUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.95s forwards;
+  animation: heroTextUp 0.9s var(--ease-out) 0.95s forwards;
 }
 .hero-btns {
   display: flex; gap: 16px; flex-wrap: wrap;
   opacity: 0;
-  animation: heroTextUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 1.15s forwards;
+  animation: heroTextUp 0.9s var(--ease-out) 1.15s forwards;
 }
 
 /* ===== MARQUEE ===== */
@@ -165,6 +175,18 @@ img { max-width: 100%; display: block; }
 .card h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; }
 .card p { font-size: 0.95rem; color: var(--mid); line-height: 1.7; margin-bottom: 24px; }
 .card a { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; }
+.card-arrow { display: inline-block; margin-left: 0.4em; transition: transform 200ms var(--ease-out); }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .card-arrow { transform: translateX(3px); }
+}
+
+/* ===== SCROLL REVEAL ===== */
+[data-reveal] {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 500ms var(--ease-out), transform 500ms var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+[data-reveal].in-view { opacity: 1; transform: translateY(0); }
 
 /* ===== ABOUT ===== */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
@@ -189,7 +211,7 @@ img { max-width: 100%; display: block; }
   background: var(--black); padding: 44px 40px;
   display: flex; flex-direction: column; justify-content: space-between;
   opacity: 0; transform: translateY(28px);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out);
 }
 .testimonial.in-view { opacity: 1; transform: translateY(0); }
 .testimonial-wide { grid-column: 1 / -1; }
@@ -269,3 +291,10 @@ img { max-width: 100%; display: block; }
 .form-field input:focus, .form-field textarea:focus { outline: none; border-color: var(--black); }
 .contact-info h3 { font-size: 1.5rem; font-weight: 700; margin-bottom: 16px; }
 .contact-info p { color: #555; line-height: 1.7; margin-bottom: 12px; }
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal], .testimonial { transform: none; transition: opacity 150ms ease; transition-delay: 0ms !important; }
+  .card-arrow { transition: none; }
+  .card:hover .card-arrow { transform: none; }
+}

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import TestimonialsSection from './components/TestimonialsSection';
+import ScrollReveal from './components/ScrollReveal';
 
 const LOGOS = [
   'TEDx', 'MDRT', 'ByOutliers', 'ICMI', 'JotForm', 'STAGE', '[Your Event]', 'TEDx', 'MDRT', 'ByOutliers', 'ICMI', 'JotForm', 'STAGE', '[Your Event]',
@@ -8,6 +9,7 @@ const LOGOS = [
 export default function Home() {
   return (
     <main>
+      <ScrollReveal />
 
       {/* ===== HERO ===== */}
       <section className="hero">
@@ -88,7 +90,7 @@ export default function Home() {
           <p className="eyebrow">How we work together</p>
           <h2 className="section-title">Unlock your potential.</h2>
           <div className="cards">
-            <div className="card">
+            <div className="card" data-reveal>
               <div className="card-num">01</div>
               <h3>Keynote Speaking</h3>
               <p>
@@ -96,25 +98,25 @@ export default function Home() {
                 that leave your audience thinking differently about their
                 challenges.
               </p>
-              <Link href="/contact">Book Shane →</Link>
+              <Link href="/contact">Book Shane<span className="card-arrow">→</span></Link>
             </div>
-            <div className="card">
+            <div className="card" data-reveal style={{'--reveal-delay': '60ms'}}>
               <div className="card-num">02</div>
               <h3>Corporate Workshops</h3>
               <p>
                 Half-day and full-day workshops that go deep, giving teams
                 the mindset and tools to communicate through adversity.
               </p>
-              <Link href="/contact">Enquire →</Link>
+              <Link href="/contact">Enquire<span className="card-arrow">→</span></Link>
             </div>
-            <div className="card">
+            <div className="card" data-reveal style={{'--reveal-delay': '120ms'}}>
               <div className="card-num">03</div>
               <h3>1:1 Coaching</h3>
               <p>
                 Private mentorship for founders, executives, and emerging
                 leaders who want to find their story and own every room.
               </p>
-              <Link href="/contact">Enquire →</Link>
+              <Link href="/contact">Enquire<span className="card-arrow">→</span></Link>
             </div>
           </div>
         </div>
@@ -124,10 +126,10 @@ export default function Home() {
       <section className="section section-dark">
         <div className="container">
           <div className="about-grid">
-            <div className="about-photo">
+            <div className="about-photo" data-reveal>
               <img src="/about.jpg" alt="Shane Ting speaking" />
             </div>
-            <div className="about-text">
+            <div className="about-text" data-reveal style={{'--reveal-delay': '80ms'}}>
               <p className="eyebrow">Meet Shane</p>
               <h2>Hi, I&apos;m Shane.</h2>
               <p>
