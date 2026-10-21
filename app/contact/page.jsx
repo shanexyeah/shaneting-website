@@ -67,10 +67,10 @@ export default function Contact() {
               <p>
                 Prefer email?{' '}
                 <a
-                  href="mailto:shanexyeah@gmail.com"
+                  href="mailto:shane@shaneting.com"
                   style={{fontWeight:600, textDecoration:'underline', textUnderlineOffset:'3px'}}
                 >
-                  shanexyeah@gmail.com
+                  shane@shaneting.com
                 </a>
               </p>
               <br />
@@ -78,6 +78,9 @@ export default function Contact() {
               <p>Turning Setbacks Into Momentum</p>
               <p>The Courage to Begin Again</p>
               <p>Owning Your Story</p>
+              <p>Communicating With Confidence</p>
+              <p>Public Speaking</p>
+              <p>Don&apos;t Wait for Courage</p>
               <p>Custom topics available for corporate events.</p>
             </div>
           </div>

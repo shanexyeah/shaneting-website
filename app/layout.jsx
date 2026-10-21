@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
           </div>
           <div className="footer-bottom">
             <p>© {new Date().getFullYear()} Shane Ting</p>
-            <p><a href="mailto:shanexyeah@gmail.com" style={{color:'rgba(255,255,255,0.4)'}}>shanexyeah@gmail.com</a></p>
+            <p><a href="mailto:shane@shaneting.com" style={{color:'rgba(255,255,255,0.4)'}}>shane@shaneting.com</a></p>
           </div>
         </footer>
       </body>
