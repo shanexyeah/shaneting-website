@@ -75,12 +75,10 @@ export default function Contact() {
               </p>
               <br />
               <h3>What I speak on</h3>
-              <p>Turning Setbacks Into Momentum</p>
-              <p>The Courage to Begin Again</p>
-              <p>Owning Your Story</p>
               <p>Communicating With Confidence</p>
               <p>Public Speaking</p>
               <p>Don&apos;t Wait for Courage</p>
+              <p>How to Tell Stories People Listen To</p>
               <p>Custom topics available for corporate events.</p>
             </div>
           </div>
