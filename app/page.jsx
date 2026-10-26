@@ -15,7 +15,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-bg" />
         {/*
-          Add your photo: place a file called hero.jpg in the /public folder of your project.
+          Add your photo: place a file called hero.png in the /public folder of your project.
           It should be a high-res vertical or wide shot of you on stage.
         */}
         <div className="hero-content">
