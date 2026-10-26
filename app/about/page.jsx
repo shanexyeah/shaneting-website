@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About Shane Ting | Keynote Speaker',
-  description: 'The story behind Shane Ting: from rock bottom to center stage.',
+  title: 'About Shane Ting | TEDx Speaker',
+  description: 'Shane Ting wasn\'t always confident. From the piano to the TEDx stage, and learning to take action before feeling ready.',
 };
 
 export default function About() {
@@ -11,85 +11,97 @@ export default function About() {
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">About</p>
-          <h1>From rock bottom<br />to <em>center stage.</em></h1>
+          <h1>I wasn&apos;t always <em>confident.</em></h1>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
+          <div className="about-prose">
+            <p className="about-lead">
+              In fact, for much of my life, I was the complete opposite.
+            </p>
+            <p>
+              Growing up, I was shy, struggled to make friends, and constantly
+              worried about what other people thought of me.
+            </p>
+            <p>
+              I knew what it felt like to want to say something but stay silent.
+              To want to put myself out there but hold back. To let the fear of
+              being judged make decisions for me.
+            </p>
+            <p>
+              And for a long time, I thought confidence was something other
+              people were simply born with.
+            </p>
 
-          {/* Row 1: text left, swim photo right */}
-          <div className="story-row">
-            <div className="story-text">
-              <p className="eyebrow">My story</p>
-              <h2>The dream.</h2>
-              <p>
-                At fourteen, I left home and moved interstate to boarding school
-                to chase one goal: becoming an Olympic swimmer. At sixteen, I
-                fractured my back. I was shattered, so I did the only
-                thing I knew how to do. I pushed harder.
-              </p>
-              <p>
-                It didn&apos;t work. I never got back to the level I&apos;d been at,
-                and slowly the dream faded, and my sense of who I was went
-                with it. I came home without an identity. I didn&apos;t know who I
-                was without swimming, and I didn&apos;t know how to talk about it.
-              </p>
-            </div>
-            <div className="story-photo">
-              <img src="/about-swim.jpg" alt="Shane Ting swimming" />
-            </div>
+            <h2>Everything changed when I started taking action.</h2>
+            <p>Over time, I began to realise something.</p>
+            <p>
+              I didn&apos;t need to wait until I felt confident to do the things
+              that scared me. I needed to do those things to build confidence.
+            </p>
+            <p>
+              So I started putting myself in situations that made me
+              uncomfortable. I practised talking to strangers, challenged myself
+              socially, studied communication, and gradually began doing things
+              I once thought were impossible.
+            </p>
+            <p>
+              It wasn&apos;t an overnight transformation. And even today, I still
+              experience fear.
+            </p>
+            <p>
+              But I learnt that courage isn&apos;t about eliminating fear. It&apos;s
+              about taking action despite it.
+            </p>
+
+            <h2>From the piano to the TEDx stage.</h2>
+            <p>
+              Music has been a huge part of my life. I&apos;ve played piano since
+              childhood, and what started as a personal passion eventually became
+              a way to connect with people around the world.
+            </p>
+            <p>
+              Through creating content, performing, and speaking, I&apos;ve had
+              countless opportunities to practise the very thing I once feared
+              most: putting myself out there.
+            </p>
+            <p>
+              Today, I&apos;ve delivered two TEDx talks, spoken to students and
+              audiences across Australia, and built a social media community of
+              over 200,000 followers.
+            </p>
+            <p>
+              But what matters most to me isn&apos;t the stages I&apos;ve stood on.
+            </p>
+            <p>
+              It&apos;s helping someone else find the courage to take their first
+              step.
+            </p>
+
+            <h2>Why I speak.</h2>
+            <p>
+              I believe too many people live their lives holding back.
+            </p>
+            <p>
+              Not because they lack talent, potential, or ambition, but because
+              they&apos;re afraid of being judged, rejected, or getting something
+              wrong.
+            </p>
+            <p>
+              And I know what that feels like, because I&apos;ve been there.
+            </p>
+            <p>
+              Through my talks and workshops, I help people build confidence,
+              overcome their fear of judgment, and take courageous action in
+              their everyday lives.
+            </p>
+            <p>
+              Because courage doesn&apos;t come before you feel the fear.
+            </p>
+            <p className="about-close">It comes after you take the action.</p>
           </div>
-
-          {/* Row 2: piano photo left, text right */}
-          <div className="story-row">
-            <div className="story-photo">
-              <img src="/about-piano.jpg" alt="Shane Ting playing piano" />
-            </div>
-            <div className="story-text">
-              <p className="eyebrow">The turning point</p>
-              <h2>A cheap keyboard.</h2>
-              <p>
-                I&apos;d grown up playing piano too; I&apos;d even reached the
-                highest level in Australia before burning out and swearing I&apos;d
-                never touch one again. But at my lowest point, I bought a cheap
-                keyboard and, for the first time in two years, played the music
-                I actually wanted to play. I started posting it online. Music
-                became the first time I expressed myself without needing to speak.
-              </p>
-              <p>
-                That became a habit, then a craft. I arranged my own sheet music,
-                built a following of over 180,000 people across social media, and
-                started performing at weddings and live events, slowly learning
-                to put myself out there, one stage at a time.
-              </p>
-            </div>
-          </div>
-
-          {/* Row 3: text left, stage photo right */}
-          <div className="story-row">
-            <div className="story-text">
-              <p className="eyebrow">The payoff</p>
-              <h2>The TED stage.</h2>
-              <p>
-                The breakthrough came when I gave my first TEDx talk, on starting
-                before you feel ready. Standing on that stage, I was really
-                speaking to one person: the shy kid who&apos;d spent years hiding
-                behind swimming and piano.
-              </p>
-              <p>
-                Today I share that story with students and audiences facing their
-                own version of rock bottom, because the hardest chapter of my
-                life taught me something I wish I&apos;d known sooner. Your story
-                isn&apos;t something to hide. It&apos;s your superpower, and courage is
-                just a muscle, trained one small scary thing at a time.
-              </p>
-            </div>
-            <div className="story-photo">
-              <img src="/about-stage.jpg" alt="Shane Ting speaking on stage" />
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -112,13 +124,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <div className="quote-strip">
-        <blockquote>
-          &ldquo;Your story isn&rsquo;t something to hide. It&rsquo;s your superpower.&rdquo;
-        </blockquote>
-        <cite>Shane Ting</cite>
-      </div>
 
       <section className="section section-light">
         <div className="container" style={{textAlign:'center'}}>
