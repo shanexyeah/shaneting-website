@@ -21,9 +21,9 @@ export default function Home() {
         <div className="hero-content">
           <h1>Your story<br />is your <em>superpower.</em></h1>
           <p>
-            Shane Ting is a keynote speaker who helps audiences turn their
-            biggest setbacks into unstoppable momentum, through honest
-            storytelling that moves rooms and changes minds.
+            Shane Ting is a TEDx speaker who helps people overcome their fear
+            of judgment, build confidence, and find the courage to take
+            action before they feel ready.
           </p>
           <div className="hero-btns">
             <Link href="/contact" className="btn btn-primary">Book Shane to Speak</Link>
