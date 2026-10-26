@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Shane Ting | Keynote Speaker</title>
-        <meta name="description" content="Shane Ting is a motivational keynote speaker helping audiences turn setbacks into momentum. Book Shane for your next conference or event." />
+        <meta name="description" content="Shane Ting is a TEDx speaker who helps people overcome their fear of judgment, build confidence, and take action before they feel ready. Book Shane for your next event." />
       </head>
       <body>
         <Nav />
