@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Shane Ting | Keynote Speaker</title>
         <meta name="description" content="Shane Ting is a TEDx speaker who helps people overcome their fear of judgment, build confidence, and take action before they feel ready. Book Shane for your next event." />
+        <meta name="theme-color" content="#080808" />
       </head>
       <body>
         <Nav />

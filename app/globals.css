@@ -15,8 +15,10 @@
 h1, h2, h3 { font-family: var(--font-display); }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { font-family: var(--font); background: var(--white); color: var(--black); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+/* Every page opens on a black hero, and mobile browsers tint their top bar from the html/body background */
+html { scroll-behavior: smooth; background: var(--black); }
+body { font-family: var(--font); background: var(--black); color: var(--black); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+main { display: block; background: var(--white); }
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 
