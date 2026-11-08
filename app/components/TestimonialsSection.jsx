@@ -12,6 +12,31 @@ const TESTIMONIALS = [
     role: 'Year 9 Program',
   },
   {
+    quote: 'Before working with Shane I was very introverted, especially in front of the camera and at networking sessions. Now I’m more confident talking with strangers, on camera for my social media, and speaking on stage.\n\nI used to use a teleprompter a lot, but after working with Shane I had the confidence to throw away the teleprompter and just talk directly.',
+    name: 'Tommy',
+    role: '1:1 Coaching Client',
+  },
+  {
+    quote: 'This is for people who know they could be living bigger. They see opportunities but aren’t taking them, because they’re being held back by fear or judgment.\n\nMy takeaway is that fear is natural and it won’t go away. The only thing I can change is my attitude to the fear, not the amount of fear.',
+    name: 'Amelia',
+    role: 'Notion Market Sydney Workshop Attendee',
+  },
+  {
+    quote: 'The biggest takeaway is that great storytelling isn’t about being impressive. It’s about making people feel and see themselves in it. That completely changed how I think about connecting with people.',
+    name: 'Amanda',
+    role: 'Storytelling Workshop Participant',
+  },
+  {
+    quote: 'I learned that I actually already have a lot of the skills. Sometimes it’s just a matter of pushing yourself out of your comfort zone, being willing to look stupid, and being willing to take up space in a conversation to actually tell your story.',
+    name: 'Nick',
+    role: 'Storytelling Workshop Participant',
+  },
+  {
+    quote: 'It was really good, very interesting. My biggest takeaway was probably not to have a plan B.',
+    name: 'Na’ama',
+    role: 'Notion Market Sydney Workshop Attendee',
+  },
+  {
     quote: 'I wanted something structured to tell me how to tell stories and that’s exactly what I got. I would recommend Shane to anyone who wants storytelling or public speaking. You can use it at basically every aspect of your life.',
     name: 'Adam',
     role: 'Storytelling Workshop Participant',
