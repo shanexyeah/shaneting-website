@@ -55,11 +55,6 @@ export default function Home() {
             </p>
             <Link href="/contact" className="btn btn-light">Book Shane to Speak</Link>
           </div>
-          <div className="hero-badge" aria-hidden="true">
-            <span className="hero-badge-top">Shane Ting</span>
-            <span className="hero-badge-main">TEDx</span>
-            <span className="hero-badge-bottom">Speaker</span>
-          </div>
         </div>
       </section>
 
