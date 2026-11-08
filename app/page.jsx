@@ -30,12 +30,6 @@ const TALKS = [
   { id: 'z2j07G0d57M', caption: 'Storytelling workshop, participant reactions' },
 ];
 
-const STORY_PHOTOS = [
-  { src: '/about-swim.jpg', alt: 'Shane swimming butterfly at a national meet' },
-  { src: '/about-stage.jpg', alt: 'Shane speaking on the TEDx red circle' },
-  { src: '/about2.jpg', alt: 'Portrait of Shane Ting' },
-];
-
 export default function Home() {
   return (
     <main>
@@ -73,15 +67,17 @@ export default function Home() {
       {/* ===== OFFERINGS ===== */}
       <section className="offerings">
         <div className="container">
+          <p className="eyebrow center">Services</p>
           <h2 className="display-2 center">How we work together</h2>
           <div className="offering-grid">
             {OFFERINGS.map((o, i) => (
               <div className="offering" key={o.title} data-reveal style={{ '--reveal-delay': `${i * 60}ms` }}>
                 <span className="icon-chip">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{o.icon}</svg>
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{o.icon}</svg>
                 </span>
                 <h3>{o.title}</h3>
                 <p>{o.body}</p>
+                <Link href="/contact" className="text-link">Enquire</Link>
               </div>
             ))}
           </div>
@@ -89,7 +85,7 @@ export default function Home() {
       </section>
 
       {/* ===== TALKS ===== */}
-      <section className="talks-strip">
+      <section className="talks-strip dark">
         <div className="container split-head">
           <h2 className="display-2">Watch Shane<br />live on stage</h2>
           <p>
@@ -113,79 +109,11 @@ export default function Home() {
         </Carousel>
       </section>
 
-      {/* ===== MEET SHANE ===== */}
-      <section className="overview">
-        <div className="container">
-          <div className="overview-row">
-            <div className="overview-text" data-reveal>
-              <p className="eyebrow">Meet Shane</p>
-              <h3 className="display-3">Hi, I&apos;m Shane</h3>
-              <p>
-                At fourteen I left home to chase my dreams of becoming an
-                Olympic swimmer. At sixteen, I fractured my back, and lost
-                the only identity I&apos;d ever had. I came home not knowing who I
-                was or how to talk about it.
-              </p>
-            </div>
-            <img className="overview-img" src="/about3.jpg" alt="Shane Ting with arms crossed" data-reveal />
-          </div>
-          <hr className="rule" />
-          <div className="overview-row">
-            <div className="overview-text" data-reveal>
-              <h3 className="display-3">From a cheap keyboard to the TEDx stage</h3>
-              <p>
-                What pulled me through wasn&apos;t a plan. It was a cheap keyboard,
-                a camera, and the courage to share something real. That grew
-                into 180,000 followers, live performances, and eventually a
-                TEDx stage.
-              </p>
-              <Link href="/about" className="text-link">Read my story</Link>
-            </div>
-            <img className="overview-img" src="/about-piano.jpg" alt="Shane at the piano" data-reveal />
-          </div>
-          <hr className="rule" />
-        </div>
-      </section>
-
-      {/* ===== STORY PHOTO STRIP ===== */}
-      <section className="story-strip">
-        <div className="container split-head">
-          <h2 className="display-2">The hardest chapter is<br />rarely the last one</h2>
-          <p>
-            Now I bring that story to students, teams, and leaders who are
-            facing their own version of rock bottom.
-          </p>
-        </div>
-        <div className="photo-track">
-          {STORY_PHOTOS.map((p) => (
-            <img key={p.src} src={p.src} alt={p.alt} loading="lazy" />
-          ))}
-        </div>
-      </section>
-
       {/* ===== GREY CTA ===== */}
       <section className="cta-band">
         <h2 className="display-2">Bring Shane to your stage</h2>
         <p>Keynotes, workshops and coaching for schools, teams and leaders.</p>
         <Link href="/contact" className="btn btn-dark">Book Shane to Speak</Link>
-      </section>
-
-      {/* ===== QUOTE FEATURE ===== */}
-      <section className="feature">
-        <div className="container feature-grid">
-          <div className="feature-card" aria-hidden="true">
-            <span className="wordmark-top">Shane Ting</span>
-            <span className="wordmark-main">Keynote</span>
-            <span className="wordmark-bottom">Speaker</span>
-          </div>
-          <h2 className="display-2 feature-title">Courage is a muscle</h2>
-          <p className="feature-text">
-            &ldquo;Train it by doing small scary things on purpose, over and
-            over, until your body learns that scary doesn&rsquo;t mean
-            dangerous.&rdquo;
-          </p>
-          <img className="feature-img" src="/about.jpg" alt="Shane speaking on stage" />
-        </div>
       </section>
 
       {/* ===== CLOSING CTA ===== */}
