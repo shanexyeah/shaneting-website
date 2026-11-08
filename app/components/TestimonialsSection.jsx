@@ -19,7 +19,7 @@ const TESTIMONIALS = [
   {
     quote: 'This is for people who know they could be living bigger. They see opportunities but aren’t taking them, because they’re being held back by fear or judgment.\n\nMy takeaway is that fear is natural and it won’t go away. The only thing I can change is my attitude to the fear, not the amount of fear.',
     name: 'Amelia',
-    role: 'Notion Market Sydney Workshop Attendee',
+    role: 'Notion Workshop Participant',
   },
   {
     quote: 'The biggest takeaway is that great storytelling isn’t about being impressive. It’s about making people feel and see themselves in it. That completely changed how I think about connecting with people.',
@@ -34,7 +34,7 @@ const TESTIMONIALS = [
   {
     quote: 'It was really good, very interesting. My biggest takeaway was probably not to have a plan B.',
     name: 'Na’ama',
-    role: 'Notion Market Sydney Workshop Attendee',
+    role: 'Notion Workshop Participant',
   },
   {
     quote: 'I wanted something structured to tell me how to tell stories and that’s exactly what I got. I would recommend Shane to anyone who wants storytelling or public speaking. You can use it at basically every aspect of your life.',
