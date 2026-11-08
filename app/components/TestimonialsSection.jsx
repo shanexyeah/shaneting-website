@@ -8,7 +8,8 @@ const TESTIMONIALS = [
   },
   {
     quote: 'Shane connected exceptionally well with the girls, using humour, personal stories and practical advice to communicate important messages in a way that felt genuine and accessible.\n\nWe would happily recommend Shane to other schools looking for a presenter who can genuinely connect with young people and leave a lasting impression.',
-    name: 'School Representative',
+    name: 'TARA Anglican School',
+    role: 'Year 9 Program',
   },
   {
     quote: 'I wanted something structured to tell me how to tell stories and that’s exactly what I got. I would recommend Shane to anyone who wants storytelling or public speaking. You can use it at basically every aspect of your life.',
