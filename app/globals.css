@@ -225,7 +225,7 @@ button { font: inherit; }
   padding: 64px 20px 20px;
   display: flex; flex-direction: column; justify-content: space-between; gap: 32px;
 }
-.testimonial-card blockquote { font-size: 1.05rem; line-height: 1.55; color: rgba(255,255,255,0.65); }
+.testimonial-card blockquote { font-size: 1.05rem; line-height: 1.55; color: rgba(255,255,255,0.65); white-space: pre-line; }
 .testimonial-name { font-size: 1.1rem; color: var(--white); }
 .testimonial-role { font-size: 0.85rem; color: rgba(255,255,255,0.55); margin-top: 4px; }
 

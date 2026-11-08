@@ -7,9 +7,8 @@ const TESTIMONIALS = [
     role: 'Head of Junior Academy, Knox Grammar School',
   },
   {
-    quote: 'Shane Ting delivered an engaging, relatable and highly valuable presentation to our Year 9 students. He connected exceptionally well with the girls, using humour, personal stories and practical advice to communicate important messages in a way that felt genuine and accessible. Our students were attentive and responsive throughout the presentation, and Shane created an environment where they felt comfortable reflecting on their own experiences, choices and challenges. His presentation was both thought provoking and age appropriate, leaving the students with practical strategies and ideas they could take away and apply to their own lives. We were incredibly grateful to have Shane speak with our Year 9 cohort and would happily recommend him to other schools looking for a presenter who can genuinely connect with young people and leave a lasting impression.',
-    name: 'TARA Anglican School',
-    role: 'Year 9 Program',
+    quote: 'Shane connected exceptionally well with the girls, using humour, personal stories and practical advice to communicate important messages in a way that felt genuine and accessible.\n\nWe would happily recommend Shane to other schools looking for a presenter who can genuinely connect with young people and leave a lasting impression.',
+    name: 'School Representative',
   },
   {
     quote: 'I wanted something structured to tell me how to tell stories and that’s exactly what I got. I would recommend Shane to anyone who wants storytelling or public speaking. You can use it at basically every aspect of your life.',
@@ -33,7 +32,7 @@ export default function TestimonialsSection() {
             <blockquote>&ldquo;{t.quote}&rdquo;</blockquote>
             <figcaption>
               <div className="testimonial-name">{t.name}</div>
-              <div className="testimonial-role">{t.role}</div>
+              {t.role && <div className="testimonial-role">{t.role}</div>}
             </figcaption>
           </figure>
         ))}
