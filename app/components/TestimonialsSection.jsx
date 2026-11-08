@@ -2,7 +2,7 @@ import Carousel from './Carousel';
 
 const TESTIMONIALS = [
   {
-    quote: 'His presentation was authentic, thoughtful, and thoroughly engaging. What resonated most strongly with our boys was his reflection on the value of courage, not simply as bravery in big moments, but as the daily choice to stand for what is right and to persevere through challenge. We look forward to welcoming Shane back to share his further insights in the coming years.',
+    quote: 'His presentation was authentic, thoughtful and thoroughly engaging. What resonated most strongly with our boys was his reflection on the value of courage, not simply as bravery in big moments, but as the daily choice to stand for what is right and persevere through challenge.\n\nWe look forward to welcoming Shane back to share his insights in the coming years.',
     name: 'Margie Raymond',
     role: 'Head of Junior Academy, Knox Grammar School',
   },
