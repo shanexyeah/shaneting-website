@@ -22,6 +22,12 @@ function SocialLinks() {
   );
 }
 
+function Chevron() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6" /></svg>
+  );
+}
+
 function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -52,8 +58,9 @@ function Nav() {
         <div className="nav-links">
           <Link href="/talks">Talks</Link>
           <Link href="/about">About</Link>
-          <Link href="/contact" className="nav-cta">Book Shane</Link>
+          <Link href="/contact">Contact</Link>
         </div>
+        <Link href="/contact" className="nav-cta">Book Shane</Link>
         <button
           type="button"
           className={`nav-toggle${menuOpen ? ' open' : ''}`}
@@ -87,26 +94,36 @@ export default function RootLayout({ children }) {
       <head>
         <title>Shane Ting | Keynote Speaker</title>
         <meta name="description" content="Shane Ting is a TEDx speaker who helps people overcome their fear of judgment, build confidence, and take action before they feel ready. Book Shane for your next event." />
-        <meta name="theme-color" content="#080808" />
+        <meta name="theme-color" content="#000000" />
       </head>
       <body>
         <Nav />
         {children}
         <footer className="footer">
           <div className="footer-inner">
-            <Link href="/" className="footer-logo">Shane Ting</Link>
             <div className="footer-links">
+              <Link href="/">Home</Link>
               <Link href="/talks">Talks</Link>
               <Link href="/about">About</Link>
               <Link href="/contact">Contact</Link>
             </div>
-            <div className="footer-socials">
-              <SocialLinks />
+            <div className="footer-cards">
+              <Link href="/contact" className="footer-card">
+                <span className="footer-card-title">Book Shane <Chevron /></span>
+                <span>Keynotes, workshops and coaching for schools, teams and leaders.</span>
+              </Link>
+              <a href="mailto:shane@shaneting.com" className="footer-card">
+                <span className="footer-card-title">Email <Chevron /></span>
+                <span>shane@shaneting.com</span>
+              </a>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© {new Date().getFullYear()} Shane Ting</p>
-            <p><a href="mailto:shane@shaneting.com" style={{color:'rgba(255,255,255,0.4)'}}>shane@shaneting.com</a></p>
+            <Link href="/" className="footer-logo">Shane Ting</Link>
+            <p>© {new Date().getFullYear()} Shane Ting. All rights reserved.</p>
+            <div className="footer-socials">
+              <SocialLinks />
+            </div>
           </div>
         </footer>
       </body>
