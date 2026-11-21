@@ -18,7 +18,6 @@ const OFFERINGS = [
   {
     title: '1:1 Coaching',
     body: 'Private mentorship for founders, executives, and emerging leaders who want to find their story and own every room.',
-    href: 'https://www.skool.com/communicationcourse',
     icon: <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />,
   },
 ];
@@ -78,11 +77,7 @@ export default function Home() {
                 </span>
                 <h3>{o.title}</h3>
                 <p>{o.body}</p>
-                {o.href ? (
-                  <a href={o.href} className="text-link" target="_blank" rel="noopener noreferrer">Enquire</a>
-                ) : (
-                  <Link href="/contact" className="text-link">Enquire</Link>
-                )}
+                <Link href="/contact" className="text-link">Enquire</Link>
               </div>
             ))}
           </div>
