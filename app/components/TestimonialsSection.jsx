@@ -2,6 +2,11 @@ import Carousel from './Carousel';
 
 const TESTIMONIALS = [
   {
+    quote: 'Shane Ting is one of Australia’s most talented emerging keynote speakers and communication coaches. His workshops are first class, engaging, highly practical and full of techniques that participants can put into practice immediately. Shane has a remarkable ability to make the art of effective communication accessible to everyone, leaving participants feeling more confident and inspired to improve.\n\nI thoroughly recommend Shane for an inspiring keynote or a practical staff communication workshop. You won’t be disappointed!',
+    name: 'Prof Lee Baumgartner',
+    role: 'Executive Director, Gulbali Research Institute, Charles Sturt University',
+  },
+  {
     quote: 'His presentation was authentic, thoughtful and thoroughly engaging. What resonated most strongly with our boys was his reflection on the value of courage, not simply as bravery in big moments, but as the daily choice to stand for what is right and persevere through challenge.\n\nWe look forward to welcoming Shane back to share his insights in the coming years.',
     name: 'Margie Raymond',
     role: 'Head of Junior Academy, Knox Grammar School',
