@@ -70,7 +70,7 @@ export default function About() {
             <p>
               Today, I&apos;ve delivered two TEDx talks, spoken to students and
               audiences across Australia, and built a social media community of
-              over 200,000 followers.
+              over 240,000 followers.
             </p>
             <p>
               But what matters most to me isn&apos;t the stages I&apos;ve stood on.
