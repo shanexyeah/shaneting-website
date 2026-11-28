@@ -50,6 +50,20 @@ export default function About() {
               I once thought were impossible.
             </p>
             <p>
+              I even{' '}
+              <a
+                href="https://www.youtube.com/watch?v=DUzCAOk4mjc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-link"
+                style={{display:'inline'}}
+              >
+                hitchhiked alone from Sydney to Melbourne
+              </a>
+              , then stood in Melbourne&apos;s city centre holding a sign asking
+              for a place to stay. A complete stranger took me in for the night.
+            </p>
+            <p>
               It wasn&apos;t an overnight transformation. And even today, I still
               experience fear.
             </p>
