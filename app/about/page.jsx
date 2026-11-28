@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import { TAGLINE, pageMeta } from '../lib/seo';
 
-export const metadata = {
-  title: 'About Shane Ting | TEDx Speaker',
-  description: 'Shane Ting wasn\'t always confident. From the piano to the TEDx stage, and learning to take action before feeling ready.',
-};
+export const metadata = pageMeta({
+  title: `About Shane Ting | ${TAGLINE}`,
+  description: 'From a shy kid to the TEDx stage and live piano requests. How Shane Ting learnt to perform before he felt ready.',
+  path: '/about',
+});
 
 export default function About() {
   return (
@@ -52,8 +54,9 @@ export default function About() {
               experience fear.
             </p>
             <p>
-              But I learnt that courage isn&apos;t about eliminating fear. It&apos;s
-              about taking action despite it.
+              But I learnt the formula that still runs everything I do: Fear +
+              Action. You don&apos;t wait to feel ready. You act, and the
+              confidence follows.
             </p>
 
             <h2>From the piano to the TEDx stage.</h2>
@@ -68,6 +71,10 @@ export default function About() {
               most: putting myself out there.
             </p>
             <p>
+              These days I bring that onto the stage. I take song requests from
+              the audience and play them by ear, wrong notes and all.
+            </p>
+            <p>
               Today, I&apos;ve delivered two TEDx talks, spoken to students and
               audiences across Australia, and built a social media community of
               over 240,000 followers.
@@ -76,8 +83,7 @@ export default function About() {
               But what matters most to me isn&apos;t the stages I&apos;ve stood on.
             </p>
             <p>
-              It&apos;s helping someone else find the courage to take their first
-              step.
+              It&apos;s helping someone else back themselves when it counts.
             </p>
 
             <h2>Why I speak.</h2>
@@ -93,9 +99,13 @@ export default function About() {
               And I know what that feels like, because I&apos;ve been there.
             </p>
             <p>
-              Through my talks and workshops, I help people build confidence,
-              overcome their fear of judgment, and take courageous action in
-              their everyday lives.
+              Through my keynotes and workshops, I help people perform under
+              pressure: the pitch, the hard conversation, the moment they&apos;re
+              not sure they&apos;re ready.
+            </p>
+            <p>
+              It&apos;s practical, not motivational. People leave with a way to
+              act when they don&apos;t feel ready.
             </p>
             <p>
               Because courage doesn&apos;t come before you feel the fear.
@@ -128,8 +138,8 @@ export default function About() {
       <section className="section section-light">
         <div className="container" style={{textAlign:'center'}}>
           <p className="eyebrow">Work with Shane</p>
-          <h2 className="section-title">Let&apos;s make your event unforgettable.</h2>
-          <Link href="/contact" className="btn btn-dark">Get in Touch →</Link>
+          <h2 className="section-title">Got an event coming up?</h2>
+          <Link href="/contact" className="btn btn-dark">Check availability</Link>
         </div>
       </section>
     </main>

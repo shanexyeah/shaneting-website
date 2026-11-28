@@ -1,6 +1,6 @@
 import Carousel from './Carousel';
 
-const TESTIMONIALS = [
+export const TESTIMONIALS = [
   {
     quote: 'Shane Ting is one of Australia’s most talented emerging keynote speakers and communication coaches. His workshops are first class, engaging, highly practical and full of techniques that participants can put into practice immediately.\n\nI thoroughly recommend Shane for an inspiring keynote or a practical staff communication workshop. You won’t be disappointed!',
     name: 'Prof Lee Baumgartner',
@@ -53,12 +53,18 @@ const TESTIMONIALS = [
   },
 ];
 
-export default function TestimonialsSection() {
+export function findTestimonial(name) {
+  return TESTIMONIALS.find((t) => t.name === name);
+}
+
+// Pass the names to show, in order. Defaults to every testimonial.
+export default function TestimonialsSection({ heading = <>What audiences<br />are saying</>, names }) {
+  const items = names ? names.map(findTestimonial) : TESTIMONIALS;
   return (
     <section className="testimonials">
-      <h2 className="display-2 center">What audiences<br />are saying</h2>
+      <h2 className="display-2 center">{heading}</h2>
       <Carousel label="testimonial" arrowsClass="center" trackClass="testimonial-track">
-        {TESTIMONIALS.map((t) => (
+        {items.map((t) => (
           <figure className="testimonial-card" key={t.name}>
             <blockquote>&ldquo;{t.quote}&rdquo;</blockquote>
             <figcaption>

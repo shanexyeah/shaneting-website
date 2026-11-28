@@ -1,7 +1,11 @@
-export const metadata = {
-  title: 'Book Shane Ting | Keynote Speaker',
-  description: 'Inquire about booking Shane Ting for your next event.',
-};
+import Link from 'next/link';
+import { TAGLINE, pageMeta } from '../lib/seo';
+
+export const metadata = pageMeta({
+  title: `Book Shane Ting | ${TAGLINE}`,
+  description: 'Check Shane Ting\'s availability for your conference, association, team or graduate program. Every enquiry gets a personal reply.',
+  path: '/contact',
+});
 
 export default function Contact() {
   return (
@@ -9,7 +13,7 @@ export default function Contact() {
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">Let&apos;s talk</p>
-          <h1>Book Shane<br />for your <em>next event.</em></h1>
+          <h1>Check availability<br />for your <em>next event.</em></h1>
         </div>
       </section>
 
@@ -37,12 +41,12 @@ export default function Contact() {
                   <input id="email" name="email" type="email" required />
                 </div>
                 <div className="form-field">
-                  <label htmlFor="org">Organization / Event</label>
+                  <label htmlFor="org">Organisation / Event</label>
                   <input id="org" name="organization" type="text" />
                 </div>
                 <div className="form-field">
                   <label htmlFor="date">Approximate Event Date</label>
-                  <input id="date" name="date" type="text" placeholder="e.g. October 2025" />
+                  <input id="date" name="date" type="text" placeholder="e.g. March 2027" />
                 </div>
                 <div className="form-field">
                   <label htmlFor="message">Tell me about your event</label>
@@ -75,11 +79,13 @@ export default function Contact() {
               </p>
               <br />
               <h3>What I speak on</h3>
-              <p>Communicating With Confidence</p>
-              <p>Public Speaking</p>
-              <p>Don&apos;t Wait for Courage</p>
-              <p>How to Tell Stories People Listen To</p>
-              <p>Custom topics available for corporate events.</p>
+              <p><Link href="/keynotes" className="text-link">Play the First Note: Performing Under Pressure</Link></p>
+              <p><Link href="/keynotes" className="text-link">The Ask: Backing Yourself in Front of Clients</Link></p>
+              <p><Link href="/keynotes" className="text-link">Say It in the Room</Link></p>
+              <p><Link href="/keynotes" className="text-link">Your First Note: Backing Yourself Early</Link></p>
+              <p>Workshops: storytelling and communicating with confidence</p>
+              <p><Link href="/schools-community" className="text-link">Schools &amp; Community talks</Link></p>
+              <p>Custom topics for corporate events.</p>
             </div>
           </div>
         </div>

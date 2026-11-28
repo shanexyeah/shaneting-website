@@ -1,10 +1,13 @@
 import Link from 'next/link';
+import { TAGLINE, pageMeta } from '../lib/seo';
 
-export const metadata = {
-  title: 'Talks | Shane Ting',
-  description: 'Watch Shane Ting\'s keynote talks, from his TEDx stage to school and corporate audiences.',
-};
+export const metadata = pageMeta({
+  title: `Talks | Shane Ting | ${TAGLINE}`,
+  description: 'Watch Shane Ting live: full talks from the TEDx stage, schools and workshops.',
+  path: '/talks',
+});
 
+// Add the TEDxYarram talk (with the live piano requests) here once it's on YouTube
 const TALKS = [
   {
     id: 'WhESr1RYXNw',
@@ -69,8 +72,8 @@ export default function Talks() {
       <section className="section section-light">
         <div className="container" style={{textAlign:'center'}}>
           <p className="eyebrow">Work with Shane</p>
-          <h2 className="section-title">Let&apos;s make your event unforgettable.</h2>
-          <Link href="/contact" className="btn btn-dark">Get in Touch →</Link>
+          <h2 className="section-title">Seen enough?</h2>
+          <Link href="/contact" className="btn btn-dark">Check availability</Link>
         </div>
       </section>
     </main>
